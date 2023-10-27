@@ -170,7 +170,11 @@ html {
   }
   
 .button-container{
+  text-align: center;
   display: inline-grid;
+  width: 100%;
+
+  align-items: center !important;
 }
 .text-blue{
   color: #03e9e7;
@@ -179,20 +183,20 @@ p{
   margin-top: 20px;
   color: white;
 }
-.bg-img{
-  background: url('templates/low-angle-view-unrecognizable-muscular-build-man-preparing-lifting-barbell-health-club_637285-2497.avif.jpg');
+.bg-img {
+  background: url('234234-1140x641.jpg');
   height: 100%;
   width: 100%;
   background-size: cover;
   background-position: center;
   position: absolute;
 }
-.bg-img:after{
+.bg-img:after {
   position: absolute;
   content: '';
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
 }

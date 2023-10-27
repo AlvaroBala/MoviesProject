@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel= "stylesheet" type= "text/css" href= "login.css">
 
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='login.css') }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='login.css') }}">
 
 </head>
+
 <body>
-  <img  class="bg-img" src="{{ url_for('static', filename='234234-1140x641.jpg') }}" alt="">
-    <div class="login-box">
-        <h2>Login</h2>
-        <form>
-          <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Email</label>
-          </div>
-          <div class="user-box">
-            <input type="password" name="" required="">
-            <label>Password</label>
-          </div>
-          <a href="#">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Submit
-          </a>
-          <small>
-            <p  class="text-white">Dont have an account?<a href="https://getbootstrap.com/docs/5.0/customize/color/"style="all:unset;"class="text-blue">Register</a></p>
-        </small>
-        </form>
+  <img class="bg-img" src="{{ url_for( filename='234234-1140x641.jpg') }}" alt="">
+  <div class="login-box">
+    <h2>Login</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" name="" required="">
+        <label>Email</label>
       </div>
+      <div class="user-box">
+        <input type="password" name="" required="">
+        <label>Password</label>
+      </div>
+      <div class="button-container text-center">
+        <small>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                LOG IN
+            </a>
+        </small>
+        <small>
+            <p  class="text-white">Dont have an account?<a href="https://getbootstrap.com/docs/5.0/customize/color/"style="all:unset;"class="text-red">Register</a></p>
+        </small>
+    </div>
+    </form>
+  </div>
+  </div>
 </body>
+
 </html>
