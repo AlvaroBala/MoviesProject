@@ -63,7 +63,8 @@
     border-bottom: 1px dashed #666;
 }
 label {
-
+    text-align: center;
+    margin-right: 10px;
     font-family: 'Heebo', sans-serif;
     font-size: 0.8rem;
     font-weight: 400;
@@ -93,3 +94,17 @@ label {
     .mb{
         margin-bottom: 20px;
     }
+    .form-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+  }
+
+  .form-group label {
+      flex: 0 0 20%; /* Adjust the width as needed */
+  }
+
+  .form-group input {
+      flex: 1;
+  }
+ 
