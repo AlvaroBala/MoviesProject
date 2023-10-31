@@ -20,7 +20,11 @@ img{
 
 .abc{
     display: inline;
-    align-items: flex-end
+    align-items: flex-end;
+    align-items: center;
+    border: 5px solid blanchedalmond;
+    padding: 30px;
+
 
 }
 

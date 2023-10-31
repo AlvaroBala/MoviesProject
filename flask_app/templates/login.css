@@ -183,7 +183,7 @@ p{
   margin-top: 20px;
   color: white;
 }
-.bg-img {
+ .bg-img {
   background: url('234234-1140x641.jpg');
   height: 100%;
   width: 100%;
@@ -199,4 +199,36 @@ p{
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
+} 
+/* .button-container{
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+  -6px -6px 12px #fff;
 }
+.button-container::before{
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%,#f9F047 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+}
+.button-container:hover::before{
+  width: 9em;
+}
+.login-box a {
+  color: #fff; /* Change the text color to white */
+
